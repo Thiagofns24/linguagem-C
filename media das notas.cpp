@@ -16,11 +16,11 @@ printf("Coloque aqui sua segunda nota:\n");
 scanf("%f", &Nota2);
 
 // Processamento dos dados
-Media = Nota1 + Nota2 /2;
+Media = (Nota1 + Nota2) /2;
 
 // Resultado
 setlocale(LC_ALL, "");
-printf("O valor da sua média, é:\n", Media);
+printf("O valor da sua média, é: %f\n", Media);
 return 0;
 }
 
