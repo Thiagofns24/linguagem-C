@@ -1,26 +1,26 @@
-//Objetivo: Calcular o valor absoluto da diferença entre duas notas
+//Objetivo: Calcular o valor absoluto da diferenÃ§a entre duas notas
 //Entrada: Nota1, Nota2
-//Saída: Diferença
+//SaÃ­da: DiferenÃ§a
 
 #include<stdio.h>
 #include<locale.h>
 int main(){
 	
-	// Declaração de variavéis
-	float Nota1, Nota2, Diferenca;
+	// DeclaraÃ§Ã£o de variavÃ©is
+	int Nota1, Nota2, Diferenca;
 	
-	// Leitura de variavéis
+	// Leitura de variavÃ©is
 	printf("Coloque aqui sua primeira nota:\n");
-	scanf("%f", &Nota1);
+	scanf("%d", &Nota1);
 	printf("Coloque aqui sua segunda nota:\n");
-	scanf("%f", &Nota2);
+	scanf("%d", &Nota2);
 	
 	// Processamento dos dados
 	Diferenca = Nota1 - Nota2;
 	
 	// Resultado
 	setlocale(LC_ALL, "");
-	printf("A diferenca absoluta, é:%f\n", Diferenca);
+	printf("A diferenca absoluta, Ã©:%d\n", Diferenca);
 	return 0;
 	
 	
