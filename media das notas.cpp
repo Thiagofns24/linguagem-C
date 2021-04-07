@@ -6,10 +6,10 @@
 #include<locale.h>
 int main(){
 	
-// Declaração de variavéis
+// Declaração de variáveis
 float  Nota1, Nota2, Media;
 
-// Leitura de variavéis
+// Leitura de variáveis
 printf("Coloque aqui sua primeira nota:\n");
 scanf("%f", &Nota1);
 printf("Coloque aqui sua segunda nota:\n");
