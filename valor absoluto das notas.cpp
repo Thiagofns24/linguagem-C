@@ -1,18 +1,18 @@
-//Objetivo: Calcular o valor absoluto da diferenÁa entre duas notas
+//Objetivo: Calcular o valor absoluto da diferen√ßa entre duas notas
 //Entrada: nota1, nota2
-//SaÌda: DiferenÁa
+//Sa√≠da: Diferen√ßa
 
 #include<stdio.h>
 #include<locale.h>
 int main(){
 	
-	// DeclaraÁ„o de variavÈis
+	// Declara√ß√£o de vari√°veis
 	int nota1, nota2, diferenca;
 	
 	// Para usar acentos
 	setlocale(LC_ALL,"");
 	
-	// Leitura das variavÈis
+	// Leitura das vari√°veis
 	printf("Coloque aqui sua primeira nota:\n");
 	scanf("%d", &nota1);
 	printf("Coloque aqui sua segunda nota:\n");
@@ -21,16 +21,16 @@ int main(){
 	// Processamento dos dados
 	diferenca = nota1 - nota2;
 	
-	// DeclaraÁ„o de estrutura condicional
+	// Declara√ß√£o de estrutura condicional
 	if(diferenca>=0){
 		printf("Nota 1:%d\n", nota1);
 		printf("Nota 2:%d\n", nota2);
-		printf("Sua diferenÁa, È:%d", diferenca);
+		printf("Sua diferen√ßa, √©:%d", diferenca);
 	}
 	else{
 		printf("Nota 1:%d\n", nota1);
 		printf("Nota 2:%d\n", nota2);
-		printf("Valor n„o absoluto");
+		printf("Valor n√£o absoluto");
 	}
 	return 0;
 }
